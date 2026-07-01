@@ -1,0 +1,43 @@
+MENTORIA SELECT — GUIA DE IMAGENS
+==================================
+
+Esta pasta (public/imagens/) precisa dos arquivos abaixo para a LP
+funcionar visualmente. Enquanto não forem enviados, os espaços ficam
+quebrados (ou, no caso da logo, cai no fallback em texto "MENTORIA SELECT").
+
+1) logo-select.png
+   - Logo da Mentoria Select, PNG com fundo transparente.
+   - Usada no menu (topo) e no rodapé.
+   - Enquanto não existir, o site mostra automaticamente o texto
+     "MENTORIA SELECT" no lugar (fallback via JS, não precisa mexer em nada).
+
+2) hero-mentor.jpg
+   - Foto de autoridade do Dr. Dias Junior, para o topo da página (Hero).
+   - Sugestão: retrato sério, fundo escuro ou ambiente clínico premium,
+     proporção retrato (vertical), boa resolução (mín. 1200px de largura).
+
+3) mentor-palestra.jpg
+   - Foto do Dr. em palestra, congresso ou evento — reforça autoridade.
+   - Usada na seção "O Mentor" (imagem principal, maior).
+
+4) mentor-clinica.jpg
+   - Foto do Dr. no consultório/clínica, de jaleco, ambiente premium.
+   - Usada na seção "O Mentor" (imagem secundária, sobreposta à principal).
+
+5) whatsapp-logo.png
+   - Ícone do WhatsApp usado no botão flutuante.
+   - Pode copiar direto do repositório da LP da clínica
+     (mentoriaselect/lp → public/imagens/whatsapp-logo.png), é o mesmo ícone.
+
+6) depoimentos/dr-01.jpg até depoimentos/dr-04.jpg
+   - Fotos profissionais dos médicos mentorados que deram depoimento.
+   - Formato quadrado (1:1) funciona melhor.
+   - IMPORTANTE: só usar foto real de médico com depoimento real dele.
+     Não usar foto de banco de imagens com texto fictício (problema
+     ético/legal). Os textos de depoimento no index.html hoje são
+     PLACEHOLDERS — precisam ser substituídos pelos relatos reais antes
+     de qualquer campanha ir ao ar.
+
+Dica: pode subir os arquivos com esses nomes exatos direto pela interface
+do GitHub (arrastar e soltar) que a página já vai reconhecer, sem precisar
+mexer no código.
