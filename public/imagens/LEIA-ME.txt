@@ -12,16 +12,18 @@ quebrados (ou, no caso da logo, cai no fallback em texto "MENTORIA SELECT").
 2) hero-mentor.jpg — OK, já está na pasta.
    - Foto de autoridade do Dr. Dias Junior, no topo da página (Hero).
 
-3) mentor-palestra.jpg — OK, já está na pasta (foto de público/palestra,
-   temporária — pode ser substituída por uma foto vertical do Dr. em
-   palestra quando tiver uma disponível).
-   - Usada na seção "O Mentor".
+3) mentor-retrato.jpg — OK, já está na pasta.
+   - Retrato de estúdio do Dr., usado como foto principal da seção "O Mentor".
 
-4) whatsapp-logo.png — não precisa mais.
+4) mentor-publico.jpg — OK, já está na pasta.
+   - Foto de público/plateia em imersão, usada pequena e sobreposta
+     (selo no canto) na seção "O Mentor", como prova social de escala.
+
+5) whatsapp-logo.png — não precisa mais.
    - O ícone do WhatsApp agora é um SVG embutido direto no código
      (não depende de arquivo de imagem).
 
-5) depoimentos/dr-01.jpg até depoimentos/dr-04.jpg — ainda faltam.
+6) depoimentos/dr-01.jpg até depoimentos/dr-04.jpg — ainda faltam.
    - Fotos profissionais dos médicos mentorados que deram depoimento.
    - Formato quadrado (1:1) funciona melhor.
    - IMPORTANTE: só usar foto real de médico com depoimento real dele.
@@ -36,5 +38,5 @@ mentoria de negócio (isso é mais para a LP da clínica, voltada a
 pacientes).
 
 Dica: ao subir arquivo pelo GitHub, marque a opção "Commit directly to
-the main branch" (não "Create a new branch...") pra não precisar
-mergear manualmente toda vez.
+the main branch" (não "Create a new branch..."), senão o upload vai
+parar numa branch separada e vai precisar de merge manual.
