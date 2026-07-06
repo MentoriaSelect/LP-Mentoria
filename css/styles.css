@@ -291,19 +291,26 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--gold-dim);
 }
 
-.hero__visual { position: relative; display: flex; justify-content: center; }
+.hero__visual { position: relative; }
 
 .hero__photo-wrap {
   position: relative;
-  width: 100%;
-  max-width: 480px;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--border);
 }
 
 .hero__photo {
   width: 100%;
-  height: auto;
-  display: block;
-  filter: drop-shadow(0 30px 40px rgba(0, 0, 0, 0.55));
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__photo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(10, 10, 10, 0.85) 100%);
 }
 
 .hero__scroll {
