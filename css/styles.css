@@ -552,7 +552,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border: 1px solid var(--border);
 }
 
-.mentor__photo-main img { width: 100%; height: 100%; object-fit: cover; }
+.mentor__photo-main img { width: 100%; height: 100%; object-fit: cover; object-position: center 75%; }
 
 .mentor__photo-sec {
   position: absolute;
