@@ -558,9 +558,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .mentor__photo-sec {
   position: absolute;
   bottom: 0;
-  right: -24px;
-  width: 42%;
-  aspect-ratio: 4 / 5;
+  right: -32px;
+  width: 62%;
+  aspect-ratio: 3 / 2;
   border-radius: 4px;
   overflow: hidden;
   border: 4px solid var(--dark);
