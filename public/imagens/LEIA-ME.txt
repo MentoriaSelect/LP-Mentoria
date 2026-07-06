@@ -9,8 +9,10 @@ quebrados (ou, no caso da logo, cai no fallback em texto "MENTORIA SELECT").
    - Logo da Mentoria Select, PNG com fundo transparente.
    - Usada no menu (topo) e no rodapé.
 
-2) hero-mentor.jpg — OK, já está na pasta.
+2) hero-mentor.png — OK, já está na pasta.
    - Foto de autoridade do Dr. Dias Junior, no topo da página (Hero).
+   - Recorte sem fundo (PNG transparente), tratada como imagem flutuante
+     com sombra (drop-shadow), sem caixa/borda ao redor.
 
 3) mentor-retrato.jpg — OK, já está na pasta.
    - Retrato de estúdio do Dr., usado como foto principal da seção "O Mentor".
