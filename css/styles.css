@@ -260,7 +260,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .hero__title {
   font-family: var(--font-title);
   font-weight: 400;
-  font-size: clamp(38px, 5.5vw, 64px);
+  font-size: clamp(38px, 5.5vw, 48px);
   line-height: 1.15;
   color: var(--white);
   margin-bottom: 24px;
