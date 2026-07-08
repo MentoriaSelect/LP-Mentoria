@@ -5,9 +5,14 @@ Esta pasta (public/imagens/) precisa dos arquivos abaixo para a LP
 funcionar visualmente. Enquanto não forem enviados, os espaços ficam
 quebrados (ou, no caso da logo, cai no fallback em texto "MENTORIA SELECT").
 
-1) logo-select.png — OK, já está na pasta.
-   - Logo da Mentoria Select, PNG com fundo transparente.
-   - Usada no menu (topo) e no rodapé.
+1) icone-select.png — OK, já está na pasta.
+   - Ícone (o "S" dourado) da Mentoria Select, PNG com fundo transparente.
+   - Usado no menu (topo) e no rodapé, sempre ao lado do texto
+     "MENTORIA SELECT" (não depende mais de fallback em JS).
+
+   logo-select.png — ainda está na pasta, mas não é mais usada no site
+   (o nav e o rodapé passaram a usar só o ícone + texto). Pode ficar
+   guardada pra uso em outras peças (ex: PDF, apresentação).
 
 2) hero-fundo.jpg — OK, já está na pasta.
    - Imagem de fundo única do Hero (composição pronta feita pelo usuário:
