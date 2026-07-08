@@ -4,22 +4,6 @@
   var WHATSAPP_NUMBER = '5532991194713';
 
   /* ------------------------------------------------------------------ */
-  /* Logo fallback — usa texto enquanto logo-select.png não existir      */
-  /* ------------------------------------------------------------------ */
-  function setupLogoFallback(imgId, textId) {
-    var img = document.getElementById(imgId);
-    var text = document.getElementById(textId);
-    if (!img || !text) return;
-    img.addEventListener('error', function () {
-      img.style.display = 'none';
-      text.style.display = 'block';
-    });
-  }
-
-  setupLogoFallback('navLogo', 'navLogoText');
-  setupLogoFallback('footerLogo', 'footerLogoText');
-
-  /* ------------------------------------------------------------------ */
   /* Nav: fundo ao rolar + menu mobile                                   */
   /* ------------------------------------------------------------------ */
   var nav = document.getElementById('nav');
