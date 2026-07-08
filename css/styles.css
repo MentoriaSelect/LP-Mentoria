@@ -238,7 +238,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   align-items: center;
   padding: 140px 0 80px;
   overflow: hidden;
-  background: var(--black) url("../public/imagens/hero-fundo.jpg") center center / cover no-repeat;
+  background: var(--black) url("../public/imagens/hero fundo.png") center center / cover no-repeat;
 }
 
 .hero__scrim {
