@@ -436,12 +436,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-top: 20px;
 }
 
-.dor__visual {
-  margin-bottom: 48px;
-}
-
-.dor__visual .img-placeholder { min-height: 260px; }
-
 .dor__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
