@@ -44,6 +44,45 @@ ul { list-style: none; }
 
 button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
 
+/* ==========================================================================
+   Placeholder de imagem (reservar espaço até termos o asset final)
+   ========================================================================== */
+
+.img-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 220px;
+  background:
+    repeating-linear-gradient(135deg, rgba(201, 162, 74, 0.06) 0px, rgba(201, 162, 74, 0.06) 1px, transparent 1px, transparent 14px),
+    var(--dark-2);
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  color: var(--gray-dim);
+  text-align: center;
+  padding: 24px;
+}
+
+.img-placeholder svg { color: var(--gold-dim); opacity: 0.6; }
+
+.img-placeholder span {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 260px;
+}
+
+.dor .img-placeholder,
+.selecao .img-placeholder {
+  background:
+    repeating-linear-gradient(135deg, rgba(10, 10, 10, 0.05) 0px, rgba(10, 10, 10, 0.05) 1px, transparent 1px, transparent 14px),
+    #f0eee8;
+  border-color: rgba(10, 10, 10, 0.12);
+  color: #8a8478;
+}
+
 .container {
   width: 100%;
   max-width: var(--container-w);
@@ -256,6 +295,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-left: -24px;
 }
 
+.hero__logo {
+  height: 92px;
+  width: auto;
+  margin-bottom: 28px;
+}
+
 .hero__title {
   font-family: var(--font-title);
   font-weight: 400;
@@ -336,6 +381,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   flex: 1;
   min-width: 140px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numeros__icon {
+  color: var(--gold);
+  margin-bottom: 10px;
 }
 
 .numeros__valor {
@@ -382,6 +435,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: #4a463f;
   margin-top: 20px;
 }
+
+.dor__visual {
+  margin-bottom: 48px;
+}
+
+.dor__visual .img-placeholder { min-height: 260px; }
 
 .dor__cards {
   display: grid;
@@ -440,6 +499,48 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-size: 17px;
   color: var(--gray);
   margin-top: 20px;
+}
+
+.metodo__timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  margin: 0 auto 56px;
+  padding: 0 4px;
+}
+
+.metodo__timeline-track {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  right: 4px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim) 15%, var(--gold-dim) 85%, transparent);
+}
+
+.metodo__timeline-point {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metodo__timeline-point::before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--black);
+  border: 1px solid var(--gold);
+}
+
+.metodo__timeline-point span {
+  margin-top: 12px;
+  font-family: var(--font-title);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: var(--gray);
 }
 
 .metodo__pilares {
@@ -691,6 +792,15 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transform: translateY(-4px);
 }
 
+.bonus__logo {
+  width: 44px;
+  height: 44px;
+  min-height: 0;
+  padding: 0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
 .bonus__card h3 {
   font-family: var(--font-title);
   font-size: 20px;
@@ -925,6 +1035,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .selecao__step {
   flex: 1;
   text-align: center;
+}
+
+.selecao__icon {
+  color: var(--gold-dim);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
 }
 
 .selecao__num {
@@ -1350,6 +1467,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
 
   .hero__content { max-width: 100%; margin-left: 0; }
+
+  .hero__logo { height: 64px; margin-bottom: 20px; }
 
   .dor, .metodo, .mentor, .recebe, .depoimentos, .bonus, .selecao, .aplicacao, .faq {
     padding: 64px 0;
